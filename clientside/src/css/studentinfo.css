@@ -1,0 +1,47 @@
+.student-table{
+    border:2px solid black;
+    /* height: 2rem; */
+    /* width:40rem; */
+    background-color: #007bffe2;
+
+    text-align: center;
+    box-shadow:  -15px -15px 30px #0000006b,
+    15px 15px 30px #ffffff6d;
+}
+.studentinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #007bffc2; 
+   height: 45rem;
+}
+.table-heading{
+    color:rgb(255, 255, 255);
+    background-color:blueviolet;
+    height: 50px;
+    font-size:1.5rem ;
+    width:10rem;
+}
+.student-heading{
+    padding-left:230px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:white;
+}
+.student-table td{
+    height:3rem;
+    border-radius: 10px;
+    background-color:white;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+    width:8rem;
+
+}
+.btn--link{
+    font-size:13px;
+    color:rgb(98, 109, 13);
+    text-decoration: underline;
+    &:hover{
+    color:red;
+}
+}
